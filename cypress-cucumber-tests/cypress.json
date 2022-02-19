@@ -1,0 +1,19 @@
+{
+  "viewportWidth": 1300,
+  "viewportHeight": 1000,
+  "defaultCommandTimeout": 15000,
+  "pageLoadTimeout": 15000,
+  "chromeWebSecurity": false,
+  "responseTimeout": 60000,
+  "taskTimeout": 60000,
+  "requestTimeout": 60000,
+  "integrationFolder": "cypress/integration/",
+  "numTestsKeptInMemory": 1,
+  "supportFile": "cypress/support/commands.js",
+    "ignoreTestFiles": "*.js",
+    "testFiles": "**/*.{feature,features}",
+
+  "env": {
+    "baseUrl": "http://localhost:3000/#" 
+  }
+}

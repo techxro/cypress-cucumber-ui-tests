@@ -1,0 +1,13 @@
+Bug Description:
+Clicking on Existing Asset Details throws an error in Console 
+
+Steps To Reproduce: 
+1. Open the url `http://localhost:3000/#`
+2. Click on Existing Assets from top Menu
+3. An error is throws in console with endless spinner on frontend.
+
+
+
+Error Details:
+`Proxy error: Could not proxy request /getAssets from localhost:3000 to http://localhost:5000 (ECONNREFUSED).
+
